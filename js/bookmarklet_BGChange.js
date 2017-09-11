@@ -1,4 +1,4 @@
-console.log('Loaded Bookmarklet!!!!!!!!!!!!');
+console.log('Loaded Background Changing Bookmarklet!!!!!!!!!!!!');
 
 javascript:(function(){											// wrapper to load jQuery, if necessary
 	var v = "2.2.4";												// the minimum version of jQuery we want
