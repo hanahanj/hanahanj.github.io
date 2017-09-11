@@ -24,7 +24,7 @@ javascript:(function(){											// wrapper to load jQuery, if necessary
 		(window.myBookmarklet = function() { // Your code goes here 
 			
 			
-$( "p" ).replaceWith( "<span class="typer" id="main" data-words="great,fun,lightweight,easy" data-colors="white" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span>" );
+$( "p" ).replaceWith( "<h2><span class="typer" id="main" data-words="great,fun,lightweight,easy" data-colors="white" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span></h2>" );
 
 
 
