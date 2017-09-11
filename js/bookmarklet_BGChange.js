@@ -24,7 +24,7 @@ javascript:(function(){											// wrapper to load jQuery, if necessary
 		(window.myBookmarklet = function() { // Your code goes here 
 			
 			
-			javascript:void(document.bgColor=prompt('What color would you like the background to be?'));
+			javascript:void(document.body.style.background=prompt('What color would you like the background to be?'));
 
 
 		})();	// end your code block
