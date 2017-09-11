@@ -1,4 +1,4 @@
-console.log('Loaded Bookmarklet!!!!!!!!!!!!');
+console.log('New Typer!!!!!!!!!!!!');
 
 javascript:(function(){											// wrapper to load jQuery, if necessary
 	var v = "2.2.4";												// the minimum version of jQuery we want
@@ -24,6 +24,8 @@ javascript:(function(){											// wrapper to load jQuery, if necessary
 		(window.myBookmarklet = function() { // Your code goes here 
 			
 			
+$( "p" ).replaceWith( "<span class="typer" id="main" data-words="great,fun,lightweight,easy" data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
+  <span class="cursor" data-owner="main"></span>" );
 
 
 
