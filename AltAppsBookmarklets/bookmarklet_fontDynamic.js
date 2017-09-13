@@ -32,7 +32,7 @@ function initMyBookmarklet(){
 
 		//YOUR CODE GOES HERE!
 
-		$(document).mousemove(function(){
+		$('h1').mousemove(function(){
 			var p=document.getElementsByTagName('h1');
 			for(i=0;i<p.length;i++){
 				if(p[i].style.fontSize){
