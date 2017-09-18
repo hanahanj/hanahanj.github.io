@@ -1,4 +1,4 @@
-console.log('Loaded font change bookmarklet!!!');
+console.log('Loaded bookmarklet!!!');
 
 
 javascript:(function(){
@@ -15,11 +15,11 @@ if (window.jQuery== undefined || window.jQuery.fn.jquery < v){
 
 		if (!done && (!this.readyState || this.readyState=="loaded" || this.readyState =="complete")){
 
-			done = true;
+		done = true;
 		initMyBookmarklet(); //If jquery is loaded now run my script
 
-	}
-};
+		}
+	};
 document.getElementsByTagName("head")[0].appendChild(script);
 
 
@@ -32,15 +32,10 @@ function initMyBookmarklet(){
 
 		//YOUR CODE GOES HERE!
 
-		var p=document.getElementsByTagName('*');
-		for(i=0;i<p.length;i++){
-			if(p[i].style.fontSize){
-				var s=parseInt(p[i].style.fontSize.replace("px",""));
-			} else {
-				var s=12;}s+=2;p[i].style.fontSize=s+"px"}
+
+		document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt").replace(/Cloud/g, "Butt");
 
 
-				
 		// YOUR CODE ENDS HERE
 	})();
 
